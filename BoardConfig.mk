@@ -15,7 +15,7 @@ TARGET_OTA_ASSERT_DEVICE := OnePlus7Pro
 TARGET_SCREEN_DENSITY := 560
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
+TARGET_KERNEL_CONFIG := crdroid_defconfig
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
