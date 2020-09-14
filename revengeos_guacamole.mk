@@ -36,3 +36,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus7Pro-user 10 QKQ1.190716.003 1909110008 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+
+# Gapps
+$(call inherit-product-if-exists, vendor/gms/common/common-vendor.mk)
