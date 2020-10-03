@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_guacamole.mk
+    $(LOCAL_DIR)/revengeos_hotdog.mk
