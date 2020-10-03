@@ -9,16 +9,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from guacamole device
-$(call inherit-product, device/oneplus/guacamole/device.mk)
+$(call inherit-product, device/oneplus/hotdog/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/revengeos/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := revengeos_guacamole
-PRODUCT_DEVICE := guacamole
+PRODUCT_NAME := revengeos_hotdog
+PRODUCT_DEVICE := hotdog
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := OnePlus 7 Pro
+PRODUCT_MODEL := OnePlus 7T Pro
 PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_AAPT_CONFIG := xxxhdpi
