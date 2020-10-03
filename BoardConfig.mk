@@ -6,10 +6,10 @@
 -include device/oneplus/sm8150-common/BoardConfigCommon.mk
 
 BOARD_VENDOR := oneplus
-DEVICE_PATH := device/oneplus/guacamole
+DEVICE_PATH := device/oneplus/hotdog
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OnePlus7Pro
+TARGET_OTA_ASSERT_DEVICE := OnePlus7TPro
 
 # Display
 TARGET_SCREEN_DENSITY := 560
