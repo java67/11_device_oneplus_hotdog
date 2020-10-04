@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_guacamole.mk
+    $(LOCAL_DIR)/yaap_hotdog.mk
 
 COMMON_LUNCH_CHOICES := \
-	yaap_guacamole-user \
-	yaap_guacamole-userdebug \
-	yaap_guacamole-eng
+	yaap_hotdog-user \
+	yaap_hotdog-userdebug \
+	yaap_hotdog-eng
